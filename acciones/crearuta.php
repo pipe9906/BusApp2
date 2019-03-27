@@ -21,6 +21,8 @@ require_once("headeradmin.php")
 							  <option value="Bus clasico">Busesito clásico</option>
 							</select>
 							
+
+							
 							<!--<input placeholder="Password" name="password" type="password" required=""> -->
 							<button class="book-btn btn submit">Crear</button>
 						</div>
