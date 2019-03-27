@@ -22,7 +22,16 @@
 		$sentencia="insert into rutas (id_rutas,nom_ruta,desc_ruta,fue_ruta,dest_ruta,tibu_ruta) values  ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
 	
 		
-		
+		try 
+		{
+			mysqli_query($con,$sentencia);
+
+		}
+		catch(Exception $e)
+		{
+			die($e->getMessage());
+		}
+	
 
 
 
