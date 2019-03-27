@@ -1,3 +1,10 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <?php
 	
 
@@ -14,6 +21,13 @@
 		$sentencia="INSERT INTO rutas VALUES ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
 		mysqli_query($con,$sentencia);
 
+
+
+echo $nom_ruta;
+echo $desc_ruta;
+echo $fue_ruta;
+echo $dest_ruta;
+echo $tibu_ruta;
 
 ?>
 
