@@ -3,7 +3,7 @@
 
 		$host = "localhost";
 		$user = "root";
-		$pw = "";
+		$pw = "UY834ouXPDsy2X";
 		$db = "busapp";
 
 		$con = mysqli_connect($host, $user, $pw) or die ("No se pudo concetar a base de datos");
