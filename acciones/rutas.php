@@ -11,11 +11,10 @@
 		$tibu_ruta= ($_POST['tibu_ruta']);
 
 	
-		$sentencia="INSERT INTO rutas VALUES ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
+		$sentencia = "insert into rutas values ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
 		mysqli_query($con,$sentencia);
 
-		echo $nom_ruta;
-		
+
 
 
 ?>
