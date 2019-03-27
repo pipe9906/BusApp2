@@ -50,9 +50,9 @@ require_once("header.html");
 							<input placeholder="Descripción" name="desc_rec" type="text" required="">
 							<input placeholder="Source(From)" type="text" name="fue_rec" required="">
 							<input placeholder="Destination(To)" type="text" name="dest_rec" required="">
-							<!--<input placeholder="Tipo de bus" type="text" name="tibu_rec" required="">
-							-->
-
+							<input placeholder="Tipo de bus" type="text" name="tibu_rec" required="">
+							
+<!--
 							<select name="tibu_rec">
 							  <option value="0">Que tipo de bus es?</option>
 							  <option value="STIP">SITP</option>
@@ -60,6 +60,7 @@ require_once("header.html");
 							  <option value="Bus clasico">Busesito clásico</option>
 							</select>
 							
+							-->
 							<!--<input placeholder="Password" name="password" type="password" required=""> -->
 							<button class="book-btn btn submit">Recomendar</button>
 						</div>
