@@ -20,7 +20,18 @@
 		echo $nom_ruta;
 
 		$sentencia="insert into rutas values ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
-		mysql_query($sentencia);
+	
+		
+		try 
+		{
+				mysql_query($sentencia);
+
+		}
+		catch(Exception $e)
+		{
+			die($e->getMessage());
+		}
+	}
 
 
 
