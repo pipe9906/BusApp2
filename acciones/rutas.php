@@ -19,12 +19,12 @@
 
 		echo $nom_ruta;
 
-		$sentencia="insert into rutas values ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
+		$sentencia="insert into rutas (id_rutas,nom_ruta,desc_ruta,fue_ruta,dest_ruta,tibu_ruta) values  ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
 	
 		
 		try 
 		{
-				mysql_query($sentencia);
+			mysqli_query($con,$sentencia);
 
 		}
 		catch(Exception $e)
