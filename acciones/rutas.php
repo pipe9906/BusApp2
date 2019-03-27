@@ -15,7 +15,11 @@
 		mysqli_query($con,$sentencia);
 
 
-
+echo $nom_ruta;
+echo $desc_rut;
+echo $fue_ruta;
+echo $dest_ruta;
+echo $tibu_ruta;
 
 ?>
 
