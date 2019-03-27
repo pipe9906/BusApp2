@@ -31,7 +31,3 @@ echo $tibu_ruta;
 
 ?>
 
-<script type="text/javascript">
-	alert("Ruta registrada");
-	window.location.href="../index.php";
-</script>
