@@ -20,14 +20,19 @@
 		echo $nom_ruta;
 
 		$sentencia="insert into rutas (id_rutas,nom_ruta,desc_ruta,fue_ruta,dest_ruta,tibu_ruta) values  ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
-			mysqli_query($con,$sentencia);
 
-			$error = $mysqli->query($sentencia);
+			
+
+// Perform a query, check for error
+if (!mysqli_query($con,$sentencia))
+  {
+  echo("Error description: " . mysqli_error($con));
+  }
+
+mysqli_close($con);
 
 
-			if (!$error) {
-				echo ($mysqli->error);
-			}
+			
 
 	
 	
