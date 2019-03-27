@@ -17,7 +17,7 @@
 		$dest_ruta= ($_POST['dest_ruta']);
 		$tibu_ruta= ($_POST['tibu_ruta']);
 
-		echo $nom_ruta
+		echo $nom_ruta;
 
 		$sentencia="insert into rutas values ('', '$nom_ruta', '$desc_ruta', '$fue_ruta', '$dest_ruta', '$tibu_ruta')";
 		mysqli_query($con,$sentencia);
